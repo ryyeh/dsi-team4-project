@@ -7,5 +7,5 @@ https://pad.riseup.net/p/H9d3HHx6M4Qwnss_R_vq-keep
 * Mung O Zhou
 * Ryan Yeh
 * Hosein Aliyari
-* Obinna Emmanuel Nwachukwu-udaku
+* Obinna Emmanuel 
 * Dayaram Khadka
