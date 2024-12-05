@@ -6,7 +6,7 @@ import pandas as pd
 #  1. align all end dates to 2018-11-29
 #  2. sort by 'slug' and 'date'
 #
-def load_coin_data(data_file):
+def load_coin_data(data_file='../../data/crypto-markets.csv'):
     try:
         df = pd.read_csv(data_file)
     except FileNotFoundError:
@@ -22,6 +22,9 @@ def load_coin_data(data_file):
     # sort the dataset by 'slug' and 'dates'
     df = df.sort_values(['slug', 'date'])
 
+    # reset the dataframe index
+    df = df.reset_index(drop=True)
+
     return df
 
 #
@@ -29,13 +32,13 @@ def load_coin_data(data_file):
 # available. By default filter out coins with less than 4 years of data.
 #
 def filter_by_years(df, years=4):
-    return df.groupby('slug').filter(lambda x: len(x) > (365 * years))
+    return df.groupby('slug').filter(lambda x: len(x) > (365 * years)).reset_index(drop=True)
 
 #
 # Split dataset by specific date. By default it will split the data so there's
 # one year worth of data for the test dataset.
 #
 def split_train_test(df, date='2017-11-29'):
-    train = df.loc[df['date'] < date]
-    test = df.loc[df['date'] >= date]
+    train = df.loc[df['date'] < date].reset_index(drop=True)
+    test = df.loc[df['date'] >= date].reset_index(drop=True)
     return train, test
