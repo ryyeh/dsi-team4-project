@@ -19,8 +19,9 @@ Various machine learning models were built to solve this time series prediction 
 
 | Models | MAE | MSE | RMSE | Explained Variance | Max Error | R-Squared |
 | ----------- | ----------- | ----------- | ----------- |----------- |----------- |----------- |
-| Linear Regression | 95.49 | 62829.70 | 250.66 | Nan | Nan | Nan |
-| Knn Regression | 1225.32 | Nan | 2160.37 | 0.5247 | 9679.05 | 0.4926 |
+| Linear Regression | 95.49 | 62829.70 | 250.66 | -- | -- | -- |
+| KNN Regression | 1225.32 | -- | 2160.37 | 0.5247 | 9679.05 | 0.4926 |
+| Deep Learning #1 | 0.02747 | 0.001966 | 0.04434 | -- | -- | 0.9474 |
 
 ### Linear Regression
 
@@ -32,9 +33,17 @@ The KNN regression predicts the coin's next day's closing price using past 5 day
 
 ![knn_price_prediction](https://github.com/user-attachments/assets/b8e86ad6-67eb-424b-9d6a-7af9a2d95a64)
 
-### Deep Learning 1
+### Deep Learning #1
 
-### Deep Learning 2
+One of the deep learning model trained have the following parameters:
+* input features consists of closing price from 3 previous days
+* 4 layers of dense layer consisting of 690k parameters
+
+All the statistical metrics shows significant better performance compared to the two non-deep learning models.
+
+![dl_1](https://github.com/user-attachments/assets/4acbca70-78e8-4320-8d4e-4815ef2c271d)
+
+### Deep Learning #2
 
 
 ## Team Members and their presentation videos
