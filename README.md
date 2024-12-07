@@ -27,7 +27,8 @@ Some additional info about the Models:
 
 
 * Knn Regression:
-
+The KNN regression predicts the coin's next day's closing price using past 5 days' closing prices and the %change in the past 5-day moving average of closing price.
+The resulting predictions and errors show that that KNN regression is range-bound and meets challenge with data that falls outside the training range.
 
 
 
