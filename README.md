@@ -22,7 +22,7 @@ Various machine learning models were built to solve this time series prediction 
 | Linear Regression | 328.06 | 296458.68 | 544.48 | 0.9689 | 3281.01 | 0.9678 |
 | KNN Regression | 1225.32 | -- | 2160.37 | 0.5247 | 9679.05 | 0.4926 |
 | Deep Learning | 0.02747 | 0.001966 | 0.04434 | -- | -- | 0.9474 |
-| Deep Learning 2 | 1.00 | 1.42 | 0.04434 | 0.94 | 6224.52 | 0.82 |
+| Deep Learning 2 (descaled) | 506.06 | 524047.49 | -- | 0.96 | 6224.52 | 0.94 |
 
 
 ### Linear Regression
@@ -62,6 +62,8 @@ The second deep learning model trained have the following parameters:
 * 3 layers of dense layers and dropout layers in between
 
 detailed explanation in model file
+
+![dl_2](https://github.com/ryyeh/dsi-team4-project/blob/main/code/Hosein's/predection.png)
 
 
 
