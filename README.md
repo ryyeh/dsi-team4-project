@@ -10,6 +10,13 @@ Solution:
 This was achieved by using different models run by each team members on this time series problem. For the sake of simplicity, the calculations were limited to prediction of closing price for bitcoin. The most significant feature engineering done was using lagged features, for instance, by transforming the closing price to 3 more lagged variables named “Closing T-1”, “Closing T-2”, and “Closing T-3”, representing closing prices for the day before, two days before and 3 days before each date (not necessarily continuous days in calendar as prices not represented for each day of the week). As we are dealing with a time series problem, the main idea in spiliting the data was to use the last year as the validation set. Finally, for each model visualization of predicted values over validation values are done and along side other metrics, performance of all the models were shown and compared.
 
 Some additional info about the Models:
+
+| Models | MAE | MSE | RMSE | Explained Variance | Max Error | R-Squared |
+| ----------- | ----------- | ----------- | ----------- |----------- |----------- |----------- |
+| Linear Regression | 95.49 | 62829.70 | 250.66 | Nan | Nan | Nan |
+| Knn Regression | 1225.32 | Nan | 2160.37 | 0.5247 | 9679.05 | 0.4926 |
+
+
 * Deep Learning 1:
 
 
@@ -25,6 +32,7 @@ Some additional info about the Models:
 
 
 * Linear Regression:
+
 
 
 
