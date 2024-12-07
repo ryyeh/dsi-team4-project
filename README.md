@@ -69,6 +69,7 @@ detailed explanation in model file
 * Mung O Zhou
 * Ryan Yeh
 * Hosein Aliyari
+    * ![Presentation Video](https://drive.google.com/file/d/1ZDgDCYVKxKktJ3nrAl2e59BY-UTdcYhV/view?usp=sharing)  
 * Obinna Emmanuel Nwachukwu-udaku
 * Dayaram Khadka
     * https://drive.google.com/file/d/14bMeP8Fzza8vLgAJw50hsG2S1d2uBbLc/view?usp=sharing
