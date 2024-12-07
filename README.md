@@ -19,13 +19,13 @@ Various machine learning models were built to solve this time series prediction 
 
 | Models | MAE | MSE | RMSE | Explained Variance | Max Error | R-Squared |
 | ----------- | ----------- | ----------- | ----------- |----------- |----------- |----------- |
-| Linear Regression | 95.49 | 62829.70 | 250.66 | -- | -- | -- |
+| Linear Regression | 328.06 | 296458.68 | 544.48 | 0.9689 | 3281.01 | 0.9678 |
 | KNN Regression | 1225.32 | -- | 2160.37 | 0.5247 | 9679.05 | 0.4926 |
 | Deep Learning #1 | 0.02747 | 0.001966 | 0.04434 | -- | -- | 0.9474 |
 
 ### Linear Regression
 
-The linear regression was the first model we built as proof of concept. The input variable are the closing price of the 3 previous days. The model's predictions are on average $95.49 away from the actual values (MAE), which is 4.2% of the average close price ($2287.29). This indicates a relatively good model.
+The linear regression was the first model we built as proof of concept. The input variable are the closing price of the 3 previous days. The model's predictions are on average $328.06 away from the actual values (MAE), which is 3.82% of the average close price ($8580.20). This indicates a relatively good model.
 
 ### KNN Regression
 
