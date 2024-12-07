@@ -22,6 +22,8 @@ Various machine learning models were built to solve this time series prediction 
 | Linear Regression | 328.06 | 296458.68 | 544.48 | 0.9689 | 3281.01 | 0.9678 |
 | KNN Regression | 1225.32 | -- | 2160.37 | 0.5247 | 9679.05 | 0.4926 |
 | Deep Learning | 0.02747 | 0.001966 | 0.04434 | -- | -- | 0.9474 |
+| Deep Learning 2 | 1.00 | 1.42 | 0.04434 | 0.94 | 6224.52 | 0.82 |
+
 
 ### Linear Regression
 
@@ -48,8 +50,21 @@ One important caveat regarding the performance metrics is that for deep learning
    - Clear upward and downward cycles identified.
 2. **Predicted vs. Actual Prices**:
    - Predictions closely follow actual trends, validating model reliability.
+  
 
 ![dl_1](https://github.com/user-attachments/assets/4acbca70-78e8-4320-8d4e-4815ef2c271d)
+
+  
+### Deep Learning 2
+
+The second deep learning model trained have the following parameters:
+* input features consists of open, high, low and close prices
+* 3 layers of dense layers and dropout layers in between
+
+detailed explanation in model file
+
+
+
 
 ## Team Members and their presentation videos
 
