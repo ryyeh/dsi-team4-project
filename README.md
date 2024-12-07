@@ -24,6 +24,8 @@ Various machine learning models were built to solve this time series prediction 
 
 ### Linear Regression
 
+The linear regression was the first model we built as proof of concept. The input variable are the closing price of the 3 previous days. The model's predictions are on average $95.49 away from the actual values (MAE), which is 4.2% of the average close price ($2287.29). This indicates a relatively good model.
+
 ### KNN Regression
 
 The KNN regression predicts the coin's next day's closing price using past 5 days' closing prices and the %change in the past 5-day moving average of closing price. The resulting predictions and errors show that that KNN regression is range-bound and meets challenge with data that falls outside the training range.
