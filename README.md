@@ -21,11 +21,11 @@ Various machine learning models were built to solve this time series prediction 
 | ----------- | ----------- | ----------- | ----------- |----------- |----------- |----------- |
 | Linear Regression | 328.06 | 296458.68 | 544.48 | 0.9689 | 3281.01 | 0.9678 |
 | KNN Regression | 1225.32 | -- | 2160.37 | 0.5247 | 9679.05 | 0.4926 |
-| Deep Learning #1 | 0.02747 | 0.001966 | 0.04434 | -- | -- | 0.9474 |
+| Deep Learning | 0.02747 | 0.001966 | 0.04434 | -- | -- | 0.9474 |
 
 ### Linear Regression
 
-The linear regression was the first model we built as proof of concept. The input variable are the closing price of the 3 previous days. The model's predictions are on average $328.06 away from the actual values (MAE), which is 3.82% of the average close price ($8580.20). This indicates a relatively good model.
+The linear regression was the first model we built as proof of concept. The input variables are the closing prices of the 3 previous days. The model's predictions are on average $328.06 away from the actual values (MAE), which is 3.82% of the average close price ($8580.20). This indicates a relatively good model.
 
 ![linear_regression](https://github.com/user-attachments/assets/d94ce6b8-167e-4b21-ac0b-1dc2d939bc99)
 
@@ -35,16 +35,15 @@ The KNN regression predicts the coin's next day's closing price using past 5 day
 
 ![knn_price_prediction](https://github.com/user-attachments/assets/b8e86ad6-67eb-424b-9d6a-7af9a2d95a64)
 
-### Deep Learning #1
+### Deep Learning
 
-One of the deep learning model trained have the following parameters:
+The deep learning model trained have the following parameters:
 * input features consists of closing price from 3 previous days
 * 4 layers of dense layer consisting of 690k parameters
 
+One important caveat regarding the performance metrics is that for deep learning, the dependent variable was normalized thus all the numbers seems significantly bettern than that of the non-deep learning models. A better metrics for comparison is the R_Squared score which indicates the corrlation between the actual and predicted prices.
+
 ![dl_1](https://github.com/user-attachments/assets/4acbca70-78e8-4320-8d4e-4815ef2c271d)
-
-### Deep Learning #2
-
 
 ## Team Members and their presentation videos
 
@@ -54,7 +53,6 @@ One of the deep learning model trained have the following parameters:
 * Obinna Emmanuel Nwachukwu-udaku
 * Dayaram Khadka
     * https://drive.google.com/file/d/14bMeP8Fzza8vLgAJw50hsG2S1d2uBbLc/view?usp=sharing
-
 
 ## Future Enhancements
 
