@@ -43,6 +43,12 @@ The deep learning model trained have the following parameters:
 
 One important caveat regarding the performance metrics is that for deep learning, the dependent variable was normalized thus all the numbers seems significantly bettern than that of the non-deep learning models. A better metrics for comparison is the R_Squared score which indicates the corrlation between the actual and predicted prices.
 
+### Visual Insights:
+1. **Historical Trends**:
+   - Clear upward and downward cycles identified.
+2. **Predicted vs. Actual Prices**:
+   - Predictions closely follow actual trends, validating model reliability.
+
 ![dl_1](https://github.com/user-attachments/assets/4acbca70-78e8-4320-8d4e-4815ef2c271d)
 
 ## Team Members and their presentation videos
