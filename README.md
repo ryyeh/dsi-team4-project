@@ -20,7 +20,7 @@ Various machine learning models were built to solve this time series prediction 
 | Models | MAE | MSE | RMSE | Explained Variance | Max Error | R-Squared |
 | ----------- | ----------- | ----------- | ----------- |----------- |----------- |----------- |
 | Linear Regression | 328.06 | 296458.68 | 544.48 | 0.9689 | 3281.01 | 0.9678 |
-| KNN Regression | 1247.33 | -- | 2171.33 | 0.5179 | 9679.05 | 0.4875 |
+| KNN Regression | 1247.33 | 4714672.25 | 2171.33 | 0.5179 | 9679.05 | 0.4875 |
 | Deep Learning 1 | 464.71 | 547491.99 | -- | 0.9471 | 5790.09 |0.9407 |
 | Deep Learning 2 | 506.06 | 524047.49 | -- | 0.9593 | 6224.52 | 0.9433 |
 
