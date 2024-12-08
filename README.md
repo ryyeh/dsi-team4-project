@@ -67,6 +67,7 @@ detailed explanation in model file
 ## Team Members and their presentation videos
 
 * Mung O Zhou
+    * https://drive.google.com/file/d/1pBl9xKKIH0rX4qNzNdeFPcdHm3KO0UDz/view?usp=sharing
 * Ryan Yeh
 * Hosein Aliyari
     * ![Presentation Video](https://drive.google.com/file/d/1ZDgDCYVKxKktJ3nrAl2e59BY-UTdcYhV/view?usp=sharing)  
