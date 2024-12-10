@@ -66,14 +66,11 @@ detailed explanation in model file
 
 ## Team Members and their presentation videos
 
-* Mung O Zhou
-    * https://drive.google.com/file/d/1pBl9xKKIH0rX4qNzNdeFPcdHm3KO0UDz/view?usp=sharing
-* Ryan Yeh
-* Hosein Aliyari
-    * https://drive.google.com/file/d/1ZDgDCYVKxKktJ3nrAl2e59BY-UTdcYhV/view?usp=sharing 
+* Mung O Zhou - [Video](https://drive.google.com/file/d/1pBl9xKKIH0rX4qNzNdeFPcdHm3KO0UDz/view?usp=sharing)
+* Ryan Yeh - [Video](https://drive.google.com/file/d/1oWu48oy8xFslrAcduzJ2ha7mC7BzDvcw/view?usp=share_link)
+* Hosein Aliyari - [Video](https://drive.google.com/file/d/1ZDgDCYVKxKktJ3nrAl2e59BY-UTdcYhV/view?usp=sharing)
 * Obinna Emmanuel Nwachukwu-udaku
-* Dayaram Khadka
-    * https://drive.google.com/file/d/14bMeP8Fzza8vLgAJw50hsG2S1d2uBbLc/view?usp=sharing
+* Dayaram Khadka - [Video](https://drive.google.com/file/d/14bMeP8Fzza8vLgAJw50hsG2S1d2uBbLc/view?usp=sharing)
 
 ## Future Enhancements
 
