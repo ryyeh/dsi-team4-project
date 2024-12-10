@@ -21,8 +21,8 @@ Various machine learning models were built to solve this time series prediction 
 | ----------- | ----------- | ----------- | ----------- |----------- |----------- |----------- |
 | Linear Regression | 328.06 | 296458.68 | 544.48 | 0.9689 | 3281.01 | 0.9678 |
 | KNN Regression | 1247.33 | 4714672.25 | 2171.33 | 0.5179 | 9679.05 | 0.4875 |
-| Deep Learning 1 | 464.71 | 547491.99 | -- | 0.9471 | 5790.09 |0.9407 |
-| Deep Learning 2 | 506.06 | 524047.49 | -- | 0.9593 | 6224.52 | 0.9433 |
+| Deep Learning 1 | 431.16 | 448236.18 | 669.50 | 0.9552 | 5219.09 | 0.9515 |
+| Deep Learning 2 | 514.77 | 542471.52 | 736.53 | 0.9604 | 5280.18 | 0.9413 |
 
 
 ### Linear Regression
@@ -57,12 +57,6 @@ detailed explanation in model file
 
 ![dl_2](https://github.com/ryyeh/dsi-team4-project/blob/main/code/Hosein's/predection.png)
 
-## Visual Insights
-
-1. **Historical Trends**:
-   - Clear upward and downward cycles identified.
-2. **Predicted vs. Actual Prices**:
-   - Predictions closely follow actual trends, validating model reliability.
 
 ## Team Members and their presentation videos
 
