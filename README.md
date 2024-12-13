@@ -1,5 +1,3 @@
-# Problem Statement
-
 ## The Data and The Problem
 
 This [cryptocurrency dataset](https://www.kaggle.com/datasets/jessevent/all-crypto-currencies/data) consists of 1 million rows of historical data for 2071 different coins, containing their transaction volume, market and daily price information such as open, high, low and close values. 
@@ -65,7 +63,3 @@ detailed explanation in model file
 * Hosein Aliyari - [Video](https://drive.google.com/file/d/1ZDgDCYVKxKktJ3nrAl2e59BY-UTdcYhV/view?usp=sharing)
 * Obinna Emmanuel Nwachukwu-udaku
 * Dayaram Khadka - [Video](https://drive.google.com/file/d/14bMeP8Fzza8vLgAJw50hsG2S1d2uBbLc/view?usp=sharing)
-
-## Future Enhancements
-
-1. An automated selling/buying program to maximize the profit gained from a limited entry amount, traded between a limited number of coins, in a limited timeframe (for instance, a week). Next step would be to removing the limitation on the set of coins available for trading.
